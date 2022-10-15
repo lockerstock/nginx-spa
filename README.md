@@ -9,7 +9,7 @@ Additionally, some SPAs offer the ability to host the application at a set baseU
 ## Usage
 
 ```dockerfile
-FROM ghcr.io/dmsi-io/nginx-spa
+FROM ghcr.io/lockerstock/nginx-spa
 
 COPY dist /usr/share/nginx/html
 ```
@@ -19,7 +19,7 @@ COPY dist /usr/share/nginx/html
 ### Hosted at Base URL
 
 ```dockerfile
-FROM ghcr.io/dmsi-io/nginx-spa
+FROM ghcr.io/lockerstock/nginx-spa
 
 ENV HOSTED_AT_BASE_URL="my-app"
 
